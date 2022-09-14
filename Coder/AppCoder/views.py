@@ -13,8 +13,8 @@ def guardarDatos(self):
     Guarda los datos de los familiares en la base de datos.
     """
     familiar1 = Familiares(nombre = 'Juan', apellido = 'Sanchez', parentesco = 'Padre', edad = 42, fechaNacimiento = '1980-06-05')
-    familiar2 = Familiares(nombre = 'Pablo', apellido = 'Hermano', parentesco = 'Padre', edad = 18, fechaNacimiento = '2004-05-06')
-    familiar3 = Familiares(nombre = 'Ayrton', apellido = 'Primo', parentesco = 'Padre', edad = 20, fechaNacimiento = '2002-02-03')
+    familiar2 = Familiares(nombre = 'Pablo', apellido = 'Hermano', parentesco = 'Primo', edad = 18, fechaNacimiento = '2004-05-06')
+    familiar3 = Familiares(nombre = 'Ayrton', apellido = 'Primo', parentesco = 'Hermano', edad = 20, fechaNacimiento = '2002-02-03')
 
     familiar1.save()
     familiar2.save()
